@@ -3,8 +3,16 @@ import './style.css';
 import firebase from 'firebase/app';
 import 'firebase/firestore';
 
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  // your config
+  apiKey: "AIzaSyBVBPB4YgquMeDO88zj_nVrp2a_4mBKiKA",
+  authDomain: "alcoachqueue.firebaseapp.com",
+  databaseURL: "https://alcoachqueue-default-rtdb.europe-west1.firebasedatabase.app",
+  projectId: "alcoachqueue",
+  storageBucket: "alcoachqueue.appspot.com",
+  messagingSenderId: "413926369895",
+  appId: "1:413926369895:web:57774ffba00ed1b70a02c2",
+  measurementId: "G-Q28P5KFQWL"
 };
 
 if (!firebase.apps.length) {
